@@ -6,10 +6,20 @@
     <title>Ocean Cleanup</title>
     <link rel="icon" type="image/x-icon" href="/Ocean-Cleaner/favicon.ico" />
     <link rel="stylesheet" href="/Ocean-Cleaner/assets/main-cdujsj8m.css" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background: #0a1628; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/Ocean-Cleaner/assets/main-c781gei-.js"></script>
-    <script type="module" src="/Ocean-Cleaner/assets/index-dg_2vsfy.js"></script>
+    <script type="module">
+      import { r as React } from '/Ocean-Cleaner/assets/main-C781gEi-.js';
+      import { component as Game } from '/Ocean-Cleaner/assets/index-dg_2vsfy.js';
+ 
+      const root = React.createRoot(document.getElementById('root'));
+      root.render(React.createElement(Game));
+    </script>
   </body>
 </html>
+ 
